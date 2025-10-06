@@ -1,12 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-function Navigation() {
-  return (
-    <nav>
-      <Link to="/">Home</Link> | <Link to="/about">About</Link>
-    </nav>
-  );
+function Home() {
+  return <h1>Welcome to my website!</h1>;
 }
 
-export default Navigation;
+export default Home;
